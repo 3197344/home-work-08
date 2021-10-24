@@ -1,0 +1,111 @@
+.header-box {
+  outline: 1px solid #ececec;
+  background-color: #ffffff;
+}
+.header-logo {
+  display: flex;
+  width: 145px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 90px;
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.header-navigation {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+}
+.header-nav .items {
+  text-decoration: none;
+    &:not(:last-child) {
+    margin-right: 50px;
+    }
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: #2196f3;
+}
+.header-link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.auth-nav .link {
+  text-decoration: none;
+}
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+.auth-nav .contact-items + .contact-items {
+  margin-left: 50px;
+}
+
+.header-address {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+    color: var(--accent-color);
+    }
+
+}
+.contact-icon {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .header-address:hover &,
+    .header-address:focus & {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+    }
+}
+.current::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  display: block;
+  bottom: -1px;
+}
