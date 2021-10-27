@@ -1,6 +1,6 @@
 .hero {
   text-align: center;
-max-width: 100%;
+  max-width: 100%;
   height: auto;
   padding-top: 118px;
   padding-bottom: 118px;
@@ -22,8 +22,6 @@ max-width: 100%;
 
   @media screen and (min-width: 480px) {
     width: 480px;
-    
-
   }
 
   @media screen and (min-width: 768px) {
@@ -31,7 +29,6 @@ max-width: 100%;
     margin: 0 auto;
     padding-left: 204px;
     padding-right: 204px;
- 
   }
 
   @media screen and (min-width: 1200px) {
@@ -41,46 +38,36 @@ max-width: 100%;
     padding-top: 200px;
     padding-bottom: 200px;
     margin: 0 auto;
-
   }
 }
 
 .hero-title {
   margin: 0 auto;
   margin-bottom: 30px;
-  max-width: 360px;
   text-align: center;
   color: var(--second-accent-color);
   font-weight: 900;
-
   font-size: 26px;
   line-height: 1.62;
-  // line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  // @media screen and (min-width: 480px) {
-  //   ;
-  // }
-
-  // @media screen and (min-width: 768px) {
-  //   width: 768px;
-  //     margin: 0 auto;
-  // }
 
   @media screen and (min-width: 1200px) {
-    width: 1200px;
-    max-width: 1600px;
-    height: 600px;
-    padding-top: 200px;
-    padding-bottom: 200px;
     margin: 0 auto;
-    // max-width: 700px;
-    // font-size: 44px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    text-align: center;
+    color: var(--second-accent-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
 }
 
 .button-primary {
-  display: block;
+  // display: block;
   width: 200px;
   height: 50px;
   align-items: center;
