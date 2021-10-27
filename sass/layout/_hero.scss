@@ -1,12 +1,16 @@
 .hero {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+
   text-align: center;
-  max-width: 100%;
   height: auto;
   padding-top: 118px;
   padding-bottom: 118px;
   padding-left: 60px;
   padding-right: 60px;
   align-items: center;
+  margin-bottom: 30px;
 
   background-color: #c4c4c4;
   background-image: linear-gradient(
@@ -42,9 +46,10 @@
 }
 
 .hero-title {
-  margin: 0 auto;
+  
   margin-bottom: 30px;
   text-align: center;
+  justify-content: center;
   color: var(--second-accent-color);
   font-weight: 900;
   font-size: 26px;
