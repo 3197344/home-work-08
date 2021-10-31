@@ -1,7 +1,7 @@
 .our-work {
+  padding-top: 60px;
+  padding-bottom: 60px;
   @media screen and (min-width: 480px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
   }
 
   @media screen and (min-width: 768px) {
@@ -18,10 +18,10 @@
 .button-link {
   display: flex;
   margin: 0 auto;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 
   @media screen and (min-width: 480px) {
-    flex-wrap: wrap;
-    margin-bottom: 40px;
   }
 
   @media screen and (min-width: 768px) {
@@ -38,6 +38,9 @@
 .button-item {
   display: block;
   height: 38px;
+  margin-right: 8px;
+  margin-bottom: 15px;
+  min-width: 73px;
   // min-width: 29px;
   // padding-top: 6px;
   @media screen and (min-width: 480px) {
@@ -45,7 +48,7 @@
     margin-bottom: 15px;
     min-width: 73px;
   }
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 0;
   }
   .button-link & + & {
