@@ -43,11 +43,11 @@
               <a href="" class="header-link link">Контакты</a>
             </li>
           </ul>
-                        <button type="button" class="menu-open-btn">
-                          <svg class="menu-modal-icon">
-                            <use href="./img/icons.svg#icon-menu"></use>
-                          </svg>
-                        </button>
+          <button type="button" class="menu-open-btn">
+            <svg class="menu-modal-icon">
+              <use href="./img/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
         </nav>
 
         <ul class="auth-nav list">
@@ -68,29 +68,30 @@
             >
           </li>
         </ul>
-
       </div>
+      <!-- is-hidden -->
+      <div class="mob-menu">
+        <!-- <div class="mob-menu-container"> -->
+          <div class="container">
+            <button type="button" class="menu-close-btn">
+              <svg class="menu-close-icon">
+                <use href="./img/icons.svg#icon-close"></use>
+              </svg>
+            </button>
 
-      <div class="mob-menu is-hidden">
-        <div class="mob-menu-container">
-          <button type="button" class="menu-close-btn">
-            <svg class="menu-close-icon">
-              <use href="./img/icons.svg#icon-close"></use>
-            </svg>
-          </button>
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-item">
+                <a href="./index.html" class="mob-menu-link">Студия</a>
+              </li>
+              <li class="mob-menu-item">
+                <a href="./portfolio.html" class="mob-menu-link">Портфолио</a>
+              </li>
+              <li class="mob-menu-item">
+                <a href="" class="mob-menu-link">Контакты</a>
+              </li>
+            </ul> 
+        
 
-          <ul class="mob-menu-list list">
-            <li class="mob-menu-item">
-              <a href="./index.html" class="mob-menu-link">Студия</a>
-            </li>
-            <li class="mob-menu-item">
-              <a href="./portfolio.html" class="mob-menu-link">Портфолио</a>
-            </li>
-            <li class="mob-menu-item">
-              <a href="" class="mob-menu-link">Контакты</a>
-            </li>
-          </ul>
-</div>
         <div class="mob-menu-bottom">
           <ul class="mob-contacts-list list">
             <li class="mob-contacts-item">
@@ -116,6 +117,7 @@
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </header>
 
@@ -699,15 +701,11 @@
         </button>
       </div>
     </div>
-
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-      <script src="./js/menu.js"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
-      
+    <!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script> -->
   </body>
 </html>
