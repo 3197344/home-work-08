@@ -626,6 +626,7 @@ body {
 }
 
 .mob-menu {
+  content: '';
   position: absolute;
   background-color: #ffffff;
   width: 100vw;
@@ -633,6 +634,10 @@ body {
   top: 0;
   padding-top: 48px;
   padding-bottom: 48px;
+}
+
+.mob-menu .mob-menu-list {
+  padding-left: 25px;
 }
 
 .mob-menu .container {
@@ -643,8 +648,10 @@ body {
   justify-content: space-between;
 }
 
-.mob-menu-list {
-  padding-left: 25px;
+.mob-menu.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .mob-menu-item:not(:last-child) {
