@@ -1281,7 +1281,6 @@ body {
 
 .clients .clients__section:hover,
 .clients .clients__section:focus {
-  border-radius: 4px;
   border-color: var(--accent-color);
 }
 
