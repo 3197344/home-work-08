@@ -26,15 +26,20 @@
       </div>
       <ul class="header-nav list">
         <li class="items">
-          <a href="./index.html" class="header-link link ">Студия</a>
+          <a href="./index.html" class="header-link link current">Студия</a>
         </li>
         <li class="items">
-          <a href="./portfolio.html" class="header-link link current">Портфолио</a>
+          <a href="./portfolio.html" class="header-link link">Портфолио</a>
         </li>
         <li class="items">
           <a href="" class="header-link link">Контакты</a>
         </li>
       </ul>
+      <button type="button" class="menu-open-btn">
+        <svg class="menu-modal-icon">
+          <use href="./img/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
     </nav>
 
     <ul class="auth-nav list">
@@ -55,7 +60,56 @@
       </li>
     </ul>
   </div>
+  <!-- mob-menu is-hidden -->
+  <div class="mob-menu is-hidden">
+    <div class="container">
+      <button type="button" class="menu-close-btn">
+        <svg class="menu-close-icon">
+          <use href="./img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mob-menu-list list">
+        <li class="mob-menu-item">
+          <a href="./index.html" class="mob-menu-link">Студия</a>
+        </li>
+        <li class="mob-menu-item">
+          <a href="./portfolio.html" class="mob-menu-link">Портфолио</a>
+        </li>
+        <li class="mob-menu-item">
+          <a href="" class="mob-menu-link">Контакты</a>
+        </li>
+      </ul>
+
+      <div class="mob-menu-bottom">
+        <ul class="mob-contacts-list list">
+          <li class="mob-contacts-item">
+            <a href="" class="mob-contact-link">+38 096 111 11 11</a>
+          </li>
+          <li class="mob-contacts-item">
+            <a href="" class="mob-contact-link">info@devstudio.com</a>
+          </li>
+        </ul>
+
+        <ul class="mob-social-list list">
+          <li class="mob-social-item">
+            <a href="" class="mob-social-link">Instagram</a>
+          </li>
+          <li class="mob-social-item">
+            <a href="" class="mob-social-link">Twitter</a>
+          </li>
+          <li class="mob-social-item">
+            <a href="" class="mob-social-link">Facebook</a>
+          </li>
+          <li class="mob-social-item">
+            <a href="" class="mob-social-link">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </header>
+
 
   <main>
     <!-- Портфолио -->
