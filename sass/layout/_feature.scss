@@ -61,7 +61,7 @@
   }
 
   .feature__title {
-    text-align: center;
+    
     margin-bottom: 10px;
     width: 100%;
     color: var(--title-text-color);
@@ -70,6 +70,9 @@
     line-height: 1.14;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+  @media screen and (max-width: 767px){
+text-align: center;
+  }
   }
   .feature__text {
     color: var(--primary-text-color);
