@@ -58,7 +58,6 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  align-items: center;
 }
 
 @media screen and (min-width: 480px) {
@@ -861,6 +860,7 @@ body {
   padding-top: 30px;
   padding-bottom: 63px;
   background-color: #ffffff;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -980,6 +980,7 @@ body {
 .section {
   background-color: var(--second-bg-color);
   padding-bottom: 94px;
+  align-items: center;
 }
 
 @media (max-width: 1199px) {
@@ -1039,6 +1040,7 @@ body {
   background-color: var(--first-bg-color);
   padding-top: 57px;
   padding-bottom: 33px;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
