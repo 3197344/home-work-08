@@ -46,8 +46,8 @@
   margin: 0 auto;
   margin: 15px;
   // @include position();
-  .clients &:hover,
-  .clients &:focus {
+  .clients &:hover .clients__section-icon ,
+  .clients &:focus .clients__section-icon {
     // border: 1px solid var(--accent-color);
     // border-radius: 4px;
     border-color: var(--accent-color);

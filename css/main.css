@@ -98,16 +98,22 @@ body {
 }
 
 .modal {
-  width: 530px;
+  width: 450px;
   min-height: 580px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   position: absolute;
-  top: 200px;
+  top: 95px;
   margin: 0 auto;
   padding: 40px;
   color: var(--primary-text-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 530px;
+  }
 }
 
 .modal-text {
@@ -121,7 +127,7 @@ body {
 }
 
 .modal-field {
-  width: 450px;
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -259,15 +265,21 @@ body {
 .label-text {
   width: 100%;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   display: flex;
-  margin-left: 12px;
   padding-left: 24px;
   align-items: center;
   position: relative;
+}
+
+@media screen and (min-width: 1200px) {
+  .label-text {
+    font-size: 14px;
+    margin-left: 12px;
+  }
 }
 
 .checkbox-icon {
@@ -634,7 +646,7 @@ body {
 
 .mob-menu {
   content: '';
-  position: absolute;
+  position: fixed;
   background-color: #ffffff;
   width: 100vw;
   height: 100vh;
@@ -1279,8 +1291,8 @@ body {
   margin: 15px;
 }
 
-.clients .clients__section:hover,
-.clients .clients__section:focus {
+.clients .clients__section:hover .clients__section-icon,
+.clients .clients__section:focus .clients__section-icon {
   border-color: var(--accent-color);
 }
 
@@ -1751,12 +1763,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .button-link .button-item + .button-item {
-    margin-left: 8px;
   }
 }
 
